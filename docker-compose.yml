@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  v2ray:
+    image: v2ray
+    volumes:
+      - ~/configs:/app/configs
+    ports:
+      - "10809:10809"
